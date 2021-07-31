@@ -1,0 +1,96 @@
+* {
+    font-family: 'Spartan', sans-serif;
+    color: hsl(0, 0%, 0%);
+}
+
+/* HEADER
+================== */
+
+header {
+    min-height: 360px;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./../images/mobile-image-hero-1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+header .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+header .navbar .navLogo {
+    margin-left: calc(40% - 31px - 20px);
+}
+
+header .navbar .burguer {
+    margin-left: 10%;
+}
+
+.angles {
+    align-self: flex-end;
+    background-color: hsl(0, 0%, 0%);
+    display: flex;
+    flex-direction: row;
+    margin-top: calc(360px - 64px - 44px);
+}
+.angles img {
+    margin: 20px 30px
+}
+
+/* Header text
+================ */
+
+main section{
+    width: 80%;
+    margin: 75px auto;
+}
+
+p{
+    color: hsl(0, 0%, 63%);
+}
+
+.shop {
+    letter-spacing: 10px;
+    margin-top: 75px;
+    font-weight: 500
+}
+.shop::after{
+    content: url(./../images/icon-arrow.svg);
+    margin-left: 15px;
+}
+.shop:hover{
+    color:hsl(0, 0%, 27%);
+}
+
+/* ABOUT
+================================================================ */
+
+.fluidImg {
+    width: 100vw;
+}
+
+/* Footer */
+
+footer section p{
+    font-size: 10px;
+    text-align: center;
+}
+footer section a{
+    margin: 0 auto;
+    display: flex; flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+footer section a p {
+    color: hsl(0, 0%, 27%);
+    font-size: 12px;
+}
+footer section a img {
+    width: 15px;
+}
