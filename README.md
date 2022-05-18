@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [DEMO](https://jpkitro.github.io/FrontendMentor-RoomHomepage/)
+- Solution URL: [DEMO](https://juanikitro.github.io/FrontendMentor-RoomHomepage/)
 
 ### Built with
 
